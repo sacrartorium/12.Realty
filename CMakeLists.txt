@@ -13,7 +13,7 @@ set(SOURCES ${SOURCES})
 add_executable(rclst ${SOURCES} src/rclst.cpp)
 target_link_libraries(rclst dlib openblas)
 set_target_properties(rclst PROPERTIES
-    CXX_STANDARD 17
+    CXX_STANDARD 14
     CXX_STANDARD_REQUIRED ON
 )
 target_include_directories(rclst
@@ -23,7 +23,7 @@ target_include_directories(rclst
 add_executable(rclss ${SOURCES} src/rclss.cpp)
 target_link_libraries(rclss dlib openblas)
 set_target_properties(rclss PROPERTIES
-    CXX_STANDARD 17
+    CXX_STANDARD 14
     CXX_STANDARD_REQUIRED ON
 )
 target_include_directories(rclss

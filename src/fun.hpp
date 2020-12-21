@@ -1,5 +1,7 @@
 ﻿#pragma once
 
+#define throw(...)
+
 #include <dlib/clustering.h>
 #include <dlib/svm_threaded.h>
 #include <iostream>
